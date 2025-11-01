@@ -32,7 +32,7 @@ Every endpoint returns and object with 'results' key.
 "results": [
            {"id":"tt0111161",
             "caption":{
-                       "plainText":"Morgan Freeman, Tim Robbins, Clancy Brown, Mark Rolston, Gil Bellows, William Sadler, Bob Gunton, Brian Libby, and James Whitmore in The                          Shawshank Redemption (1994)"
+                       "plainText":"Morgan Freeman, Tim Robbins, Clancy Brown, Mark Rolston, Gil Bellows, William Sadler, Bob Gunton, Brian Libby, and James Whitmore in The Shawshank Redemption (1994)"
                       },
            "titleType":{
                        "text":"Movie",
