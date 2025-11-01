@@ -22,10 +22,12 @@ Every endpoint returns and object with 'results' key.
 
 ## Request and Response Format
 #### Example Request 
-> GET https://moviesdatabase.p.rapidapi.com/titles/search/title/The%20Shawshank%20Redemption?exact=true&titleType=movie
-> Headers:
-> X-RapidAPI-Key: YOUR_API_KEY
-> X-RapidAPI-Host: moviesdatabase.p.rapidapi.com
+```git
+GET https://moviesdatabase.p.rapidapi.com/titles/search/title/The%20Shawshank%20Redemption?exact=true&titleType=movie
+Headers:
+X-RapidAPI-Key: YOUR_API_KEY
+X-RapidAPI-Host: moviesdatabase.p.rapidapi.com
+```
 
 #### Example Response
 ```git
