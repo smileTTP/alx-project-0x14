@@ -21,11 +21,37 @@ Every endpoint returns and object with 'results' key.
 | Other filters/parameters | GET | - |
 
 ## Request and Response Format
+#### Example Request 
+> GET https://moviesdatabase.p.rapidapi.com/titles/search/title/The%20Shawshank%20Redemption?exact=true&titleType=movie
+> Headers:
+> X-RapidAPI-Key: YOUR_API_KEY
+> X-RapidAPI-Host: moviesdatabase.p.rapidapi.com
 
- ## Authentication
+#### Example Response
+```git
+"results": [
+           {"id":"tt0111161",
+            "caption":{
+                       "plainText":"Morgan Freeman, Tim Robbins, Clancy Brown, Mark Rolston, Gil Bellows, William Sadler, Bob Gunton, Brian Libby, and James Whitmore in The                          Shawshank Redemption (1994)","__typename":"Markdown"},"__typename":"Image"
+                      },
+           "titleType":{
+                       "text":"Movie",
+                       "id":"movie",
+                       "isSeries":false,"isEpisode":false,
+                       "__typename":"TitleType"
+                       },
+          "titleText":{
+                       "text":"The Shawshank Redemption",
+                       "__typename":"TitleText"
+                       },
+       "releaseYear":{"year":1994,"endYear":null,"__typename":"YearRange"},
+       "releaseDate":{"day":2,"month":3,"year":1995,"__typename":"ReleaseDate"}}
+]
+```
+## Authentication
 
- ## Error Handling
+## Error Handling
 
- ## Usage Limits and Best Practices
+## Usage Limits and Best Practices
 
  
