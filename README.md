@@ -5,6 +5,7 @@
 This api provides complete and updated data for over 9 million titles (movies, series and episodes) and 11 million actors/crew and cast members.
 
 ## API Version
+RapidAPI supports version 3 of TMDB. 
 
 ## Available Endpoints
 
