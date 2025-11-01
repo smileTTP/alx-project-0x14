@@ -57,6 +57,9 @@ Authentication is handled through API Key Headers via RapidAPI.
 > X-RapidAPI-Host: moviesdatabase.p.rapidapi.com
 
 ## Error Handling
+- 400: Bad request – Missing or incorrect parameters.
+- 404: Not found – The movie or person you are searching for doesn't exist.
+- 500: Internal server error – Something went wrong on our end.
 
 ## Usage Limits and Best Practices
 
