@@ -51,6 +51,10 @@ X-RapidAPI-Host: moviesdatabase.p.rapidapi.com
 ]
 ```
 ## Authentication
+Authentication is handled through API Key Headers via RapidAPI.
+
+> X-RapidAPI-Key: YOUR_API_KEY
+> X-RapidAPI-Host: moviesdatabase.p.rapidapi.com
 
 ## Error Handling
 
