@@ -54,5 +54,12 @@ Authentication is handled through API Key Headers via RapidAPI.
 - 500: Internal server error – Something went wrong on our end.
 
 ## Usage Limits and Best Practices
+#### Usage limits:
+- Free plan:
+1000 requests per hour
+Pro plan:
+5 requests per second
 
- 
+#### Best practices:
+ - Storing the API key in environment variables.
+ - Cache responses
