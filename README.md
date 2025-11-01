@@ -36,16 +36,8 @@ X-RapidAPI-Host: moviesdatabase.p.rapidapi.com
             "caption":{
                        "plainText":"Morgan Freeman, Tim Robbins, Clancy Brown, Mark Rolston, Gil Bellows, William Sadler, Bob Gunton, Brian Libby, and James Whitmore in The Shawshank Redemption (1994)"
                       },
-           "titleType":{
-                       "text":"Movie",
-                       "id":"movie",
-                       "isSeries":false,"isEpisode":false,
-                       "__typename":"TitleType"
-                       },
-          "titleText":{
-                       "text":"The Shawshank Redemption",
-                       "__typename":"TitleText"
-                       },
+           "titleType":{"text":"Movie", "id":"movie", "isSeries":false, "isEpisode":false, "__typename":"TitleType"},
+          "titleText":{"text":"The Shawshank Redemption", "__typename":"TitleText"},
        "releaseYear":{"year":1994,"endYear":null,"__typename":"YearRange"},
        "releaseDate":{"day":2,"month":3,"year":1995,"__typename":"ReleaseDate"}}
 ]
