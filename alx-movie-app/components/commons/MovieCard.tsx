@@ -1,4 +1,3 @@
-
 const MovieCard: React.FC = () => {
     return (
         <div></div>
