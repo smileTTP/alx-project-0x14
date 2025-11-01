@@ -18,7 +18,7 @@ Every endpoint returns and object with 'results' key.
 | /actors | GET | Returns array of actors according to filters provided |
 | /title/utils/titleType | GET | Returs array of title types |
 | /titles/{id}/crew | GET | Returns an array of crew according to id provided |
-| Other | - | - |
+| Other filters/parameters | GET | - |
 
 ## Request and Response Format
 
